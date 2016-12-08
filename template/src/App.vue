@@ -16,7 +16,7 @@ export default {
   }
 }
 </script>
-<style lang="less">
+<style>
 body {
   color: #333333;
 }
@@ -26,11 +26,10 @@ body {
 }
 .view {
   transition: opacity .2s ease;
-
-  &.fade-enter-active,
-  &.fade-leave-active {
-    opacity: 0;
-  }
+}
+.view.fade-enter-active,
+.view.fade-leave-active {
+  opacity: 0;
 }
 </style>
 
